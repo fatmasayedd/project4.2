@@ -1,0 +1,53 @@
+﻿
+*{
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+}
+body{  
+background-color: rgb(255, 255, 255);
+font-family: 'Courier New', Courier, monospace;
+font-weight: 700px !important;
+}
+h2{
+   font-size:35px !important;
+}
+.shadowGood{
+    transition: 0.3s;
+}
+.shadowGood:hover{
+text-shadow: 13px 13px 25px white,-13px -13px 25px white;
+}
+.main-box{    
+    background-color: rgba(200, 200, 200, 0.4);
+    border-radius: 15px;
+}
+ .image1{
+    height: 200px;
+background: url(../img/كتب.jpg)  no-repeat fixed center ;
+background-size:cover;
+ }
+ .image2{
+    height: 200px;
+    background: url(../img/lovepik-library-to-find-books-picture_501427968.jpg) no-repeat fixed center ;
+    background-size:cover;
+ }
+ .y{
+    transition: 2s;
+ }
+ .arrow:focus i{
+    transform: rotatex(180deg);
+ }
+
+
+
+
+
+
+
+
+
+
+
+
+

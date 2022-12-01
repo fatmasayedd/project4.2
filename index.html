@@ -1,0 +1,646 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <title>wep</title>
+    <link rel="stylesheet" href="css/css.css">
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="css/all.css">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css">
+</head>
+<body>
+
+    <nav class=" navbar navbar-expand-lg navbar-dark bg-dark sticky-top">
+            <!-- Brand -->
+            <div class="pr-3"><img src="img/99.PNG"   class="rounded-circle "  width="50" height="50" alt="">
+            </div>
+
+            <div class="pr-3 navbar-brand border border-top-0 border-left-0 border-bottom-0 shadowGood">Book</div>
+            <!-- Links -->
+            <button class="navbar-toggler btn-outline-light bg-dark" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+          
+            <div class="collapse navbar-collapse" id="collapsibleNavbar">
+              <ul class="navbar-nav ">
+                <li class="nav-item">
+                  <a class="nav-link  text-light" href="#">Main</a>
+                </li>
+              
+                <!-- Dropdown -->
+                <li class="nav-item dropdown ">
+                  <a class="nav-link dropdown-toggle  text-light" href="#" id="navbardrop" data-toggle="dropdown">
+                    Books sections
+                  </a>
+                  <div class="dropdown-menu bg-secondarylight">
+                    <a class="dropdown-item" href="https://www.ktaab.com/genre/novel/" target="_blank">Novel</a>
+                    <a class="dropdown-item" href="https://www.ktaab.com/genre/history/" target="_blank">History</a>
+                    <div class="dropdown-divider"></div>
+                    <a class="dropdown-item" href="https://www.ktaab.com/genre/sciences/" target="_blank">Sciences</a>  
+                    <a class="dropdown-item" href="https://www.ktaab.com/genre/religions/" target="_blank">Religious books</a>
+                    <a class="dropdown-item" href="https://www.ktaab.com/genre/selfhelp/" target="_blank">Human Developement</a>
+                    <a class="dropdown-item" href="ktaab.com/genre/الاقتصاد-والإدارة/" target="_blank">Economics And Management</a>
+                  </div>
+                </li>
+                <li class="nav-item ">
+                  <a class="nav-link  text-light" href="#">Reviews</a>
+                </li>
+              </ul>
+          
+                <form class=" d-flex" style="margin-left:220px;">
+                  <input class="form-control" type="text" placeholder="Search"  aria-label="Search">
+                  <button type="button" class="btn btn-outline-light ml-1">Search</button>
+                 </form>
+                   <form class="d-flex"><button type="button" class="btn btn-outline-light  ml-1" data-toggle="modal" data-target="#myModal">
+                    Log in
+                  </button>
+                </form>
+              
+           </div>
+          </nav> 
+
+<!-- /////////////////////////// main section ///////////////////////////////////////// -->
+
+  <div id="demo" class="carousel slide" data-ride="carousel">
+    <ul class="carousel-indicators">
+      <li data-target="#demo" data-slide-to="0" class="active"></li>
+      <li data-target="#demo" data-slide-to="1"></li>
+      <li data-target="#demo" data-slide-to="2"></li>
+      <li data-target="#demo" data-slide-to="3"></li>
+    </ul>
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+         <img  src="img/pexels-photo-1098601.jpeg" alt="Los Angeles" class="d-block w-100" height="380">
+
+        <div class="carousel-caption main-box">
+          <h2 >All books are available</h2>
+          <a href="https://www.ktaab.com/sections/" target="_blank" ><button type="button" class="btn btn-primary">Browse now</button></a>
+        </div>   
+    
+      </div>
+      <div class="carousel-item">
+        <img src="img/books-book-pages-read-literature-159866.jpeg" alt="Chicago" class="d-block w-100" height="380">
+        <div class="carousel-caption main-box">
+          <h2 >Translated books</h2>
+          <a href="https://www.ktaab.com/genre/translated/" target="_blank"><button type="button" class="btn btn-primary">Browse now</button></a>
+        </div>   
+      </div>
+      <div class="carousel-item">
+        <img src="img/istockphoto-860435924-612x612.jpg" alt="New York" class="d-block w-100" height="380">
+        <div class="carousel-caption main-box">
+          <h2 >Audio books</h2>
+          <a href="https://www.ktaab.com/genre/audible/" target="_blank"><button type="button" class="btn btn-primary">Browse now</button></a>
+        </div>  
+      </div>
+      <div class="carousel-item">
+        <img src="img/1505941929243-1200x675.jpg" class="d-block w-100" alt="New York" height="380">
+        <div class="carousel-caption main-box">
+          <h2 >Reading</h2>
+          <a href="https://www.ktaab.com/sections/" target="_blank"><button type="button" class="btn btn-primary">Browse now</button></a>
+        </div>  
+      </div>
+    </div>
+    
+ 
+    <a class="carousel-control-prev" href="#demo" data-slide="prev">
+      <span class="carousel-control-prev-icon"></span>
+    </a>
+    <a class="carousel-control-next" href="#demo" data-slide="next">
+      <span class="carousel-control-next-icon"></span>
+    </a>
+   </div>
+
+
+<!-- ///////////////////////////  section1 /////////////////////////////////////// -->
+<div style="background:rgb(255, 255, 255) ;"> 
+<div class="text-center bg-light">
+<h2 class="pt-5"> welcome To Book Store</h2>
+<p class="pb-5">you’re in the right place.we have 81,106,924 eBooks for you to download for free. Tell us what titles or genres you’ve enjoyed in the past, and we’ll give you surprisingly insightful recommendations</p>
+</div>
+
+
+<!-- ///////////////////////////  section2 ///////////////////////////////////////  -->
+
+<hr>
+<div class="mw-80 h-50 ">
+<div class=" pl-4 pt-2  section-title ">
+  <h2 class="pb-4 mb-0 text-center ">Search for books by</h2>
+
+  <!-- </div> -->
+
+  
+  <div id="accordion" class="container">
+    <div class="card">
+      <button type="button" class="arrow card-header btn btn-outline-dark" data-toggle="collapse" href="#collapseOne"> 
+        <span class="collapsed card-link float-left">
+          Books Sections            
+        </span>
+        <i class="fas fa-chevron-down float-right pt-1 "></i>  
+    </button>
+      <div id="collapseOne" class="collapse " data-parent="#accordion">
+        <div class="card-body row">
+
+          
+
+            
+              <a href="https://www.ktaab.com/genre/history/" target="_blank">
+                <button class="btn  btn-outline-dark m-1">History</button> </a>
+
+                <a href="https://www.ktaab.com/genre/sciences/" target="_blank">
+                  <button class="btn btn-outline-dark m-1">Sciences</button> </a>
+
+                  <a href="https://www.ktaab.com/genre/religions/" target="_blank">
+                    <button class="btn btn-outline-dark m-1">Religious books</button> </a>
+
+            <a href="https://www.ktaab.com/genre/biography/" target="_blank">
+            <button class="btn btn-outline-dark  m-1">Curriculum Vitae</button> </a>
+
+           <a href="https://www.ktaab.com/genre/selfhelp/" target="_blank">
+            <button class="btn btn-outline-dark m-1">Human Developement</button> </a>
+            <a href="https://www.ktaab.com/genre/novel/" target="_blank">
+              <button class="btn btn-outline-dark m-1">Novel</button> </a>
+
+
+          <a target="_blank" href="https://www.ktaab.com/genre/%D9%85%D8%B9%D8%A7%D8%AC%D9%85-%D9%88%D9%82%D9%88%D8%A7%D9%85%D9%8A%D8%B3/"> 
+            <button class="btn btn-outline-dark m-1">Glossaries and dictionaries</button> </a> 
+
+
+            <a href="ktaab.com/genre/الاقتصاد-والإدارة/" target="_blank">
+              <button class="btn btn-outline-dark  m-1 ">Economics And Management</button> </a>
+
+              <a href="https://www.ktaab.com/genre/%D9%85%D9%86%D9%88%D8%B9%D8%A7%D8%AA/" target="_blank">
+                <button class="btn btn-outline-dark m-1">Mix</button> </a>
+
+        </div>
+      </div>
+    </div>
+  
+    <div class="card ">
+      <button type="button" class=" arrow  card-header btn btn-outline-dark" data-toggle="collapse" href="#collapsetwo"> 
+        <span class="collapsed card-link float-left">
+          Books Authors                      
+        </span>
+        <i class="fas fa-chevron-down float-right pt-1 "></i>  
+    </button>
+      <div id="collapsetwo" class="collapse " data-parent="#accordion">
+        <div class="card-body row">
+          <a href="https://www.amazon.eg/s?bbn=18018045031&rh=n%3A18018045031%2Cp_lbr_books_authors_browse-bin%3AJames+Clear&dc&qid=1669761621&rnid=22541270031&ref=lp_18018046031_nr_p_lbr_books_authors_browse-bin_0" target="_blank">  <button class="btn btn-outline-dark m-1">James Clear </button></a>
+        <a href="https://www.amazon.eg/s?bbn=18018045031&rh=n%3A18018045031%2Cp_lbr_books_authors_browse-bin%3APeppa+Pig&dc&qid=1669761621&rnid=22541270031&ref=lp_18018046031_nr_p_lbr_books_authors_browse-bin_1" target="_blank"><button class="btn btn-outline-dark m-1">Lucy Bowman </button></a>
+          <a href="https://www.amazon.eg/s?bbn=18018045031&rh=n%3A18018045031%2Cp_lbr_books_authors_browse-bin%3ADavid+Goggins&dc&qid=1669761621&rnid=22541270031&ref=lp_18018046031_nr_p_lbr_books_authors_browse-bin_5" target="_blank">  <button class="btn btn-outline-dark m-1">David Goggins</button></a>
+        <a href="https://www.amazon.eg/s?bbn=18018045031&rh=n%3A18018045031%2Cp_lbr_books_authors_browse-bin%3AMorgan+Housel&dc&qid=1669761621&rnid=22541270031&ref=lp_18018046031_nr_p_lbr_books_authors_browse-bin_6" target="_blank">  <button class="btn btn-outline-dark m-1">Morgan Housel</button></a>
+        <br><br>
+        <a href="https://www.amazon.eg/s?bbn=18018045031&rh=n%3A18018045031%2Cp_lbr_books_authors_browse-bin%3AJames+Maclaine&dc&qid=1669761621&rnid=22541270031&ref=lp_18018046031_nr_p_lbr_books_authors_browse-bin_3" target="_blank"> <button class="btn btn-outline-dark m-1">James McLaine</button></a>
+        <a href="https://www.amazon.eg/s?bbn=18018045031&rh=n%3A18018045031%2Cp_lbr_books_authors_browse-bin%3APeppa+Pig&dc&qid=1669761621&rnid=22541270031&ref=lp_18018046031_nr_p_lbr_books_authors_browse-bin_1" target="_blank"><button class="btn btn-outline-dark m-1">Peppa Pig</button></a>
+        <a href="https://www.amazon.eg/s?bbn=18018045031&rh=n%3A18018045031%2Cp_lbr_books_authors_browse-bin%3AJames+Maclaine&dc&qid=1669761621&rnid=22541270031&ref=lp_18018046031_nr_p_lbr_books_authors_browse-bin_3" target="_blank"><button class="btn btn-outline-dark m-1">David Goggins</button></a>
+       
+          <a href="https://www.amazon.eg/s?bbn=18018045031&rh=n%3A18018045031%2Cp_lbr_books_authors_browse-bin%3ANorman+Vincent+Peale&dc&qid=1669761621&rnid=22541270031&ref=lp_18018046031_nr_p_lbr_books_authors_browse-bin_2" target="_blank"><button class="btn btn-outline-dark m-1">Norman Vincent Peale</button></a>
+        
+        </div>
+      </div>
+    </div>
+  
+    <div class="card ">
+      <button type="button" class="arrow card-header btn btn-outline-dark" data-toggle="collapse" href="#collapsethree"> 
+        <span class="collapsed card-link float-left">
+          The Entire Archive                         
+        </span>
+        <i class="fas fa-chevron-down float-right pt-1 "></i>  
+    </button>
+      <div id="collapsethree" class="collapse " data-parent="#accordion">
+        <div class="card-body">
+          <a href="https://www.ktaab.com/archive/" target="_blank">
+            <button class="btn btn-outline-dark   ">Book archive</button> </a>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<hr>
+<!-- ///////////////////////////  section3 ///////////////////////////////////////  -->
+
+
+<div class="card text-center">
+  <h3 class="ml-3 py-3 mb-0 "><i class="fas fa-book text-primary"></i>  Read books</h3>
+  <div class="card-body bg-light">
+    <h4 class="card-title "> Reading: Read | Download | Extract <a href="https://www.ktaab.com/genre/religions/"><button class="btn btn-sm btn-outline-primary ">here</button></a></h4>
+ </div>
+</div>
+<!-- <hr> -->
+<br>
+<div class="card text-center">
+  <h3 class="ml-3 py-3  mb-0"><i class="fas fa-volume-up text-primary"></i> Audio books</h3>
+  <div class="card-body bg-light">
+    <h4 class="card-title ">Audio: Play in a separate window | Download <a href="https://www.ktaab.com/genre/audible/"><button class="btn btn-sm btn-outline-primary ">here</button> </a></h4>
+
+  </div>
+</div>
+<br>
+<!-- <hr> -->
+
+
+    <div class="card text-center">
+      <h3 class="ml-3 py-3 mb-0"><i class="fas fa-language text-primary"></i> Translated books</h3>
+      <div class="card-body bg-light">
+        <h4 class="card-title ">Instantaneous Translation: Translating books from different languages
+          <a href="https://www.ktaab.com/genre/translated/" target="_blank">
+            <button class="btn btn-sm btn-outline-primary ">here</button> </a></h4>
+           </div>
+    </div>
+  <hr>
+
+ 
+ 
+
+<!-- ///////////////////////////////////// section6 ///////////////////////////////////////////////// -->
+      <div class="image1"  >
+      </div>
+</div>
+ <!-- ///////////////////////////////////// section7 ///////////////////////////////////////////////// -->
+<hr>
+  <h2 class="text-center mt-4 pt-3 ">Books by Arabic</h2>
+<!-- <div class="bg-light mt-0" > -->
+
+<div class="container pb-5 ">
+  <div class="row justify-content-around text-center " >
+   
+    
+    <div class="card  mt-5 " style="width: 14rem;" >
+      <a href="" target="_blank">
+        <img src="img/u2.jpg" class="card-img-top" alt="html pic"  height="300"></a>
+      <div class="card-body">
+        <h4 class="card-title">تاريخ العرب القديم</h4>
+        <br>
+        <div class=" row justify-content-around"><a  href="https://www.ktaab.com/books/%d8%aa%d8%a7%d8%b1%d9%8a%d8%ae-%d8%a7%d9%84%d8%b9%d8%b1%d8%a8-%d8%a7%d9%84%d9%82%d8%af%d9%8a%d9%85/" target="_blank" class="btn btn-primary">Download</a> 
+          <a href="https://docs.google.com/viewerng/viewer?url=https://www.ktaab.com/d/6652915" class="btn btn-primary" target="_blank">Reading</a> </div>
+     
+      </div>
+    </div>
+
+
+<div class="card  mt-5 " style="width: 14rem;" >
+  <a href="" target="_blank">
+    <img src="img/A2.PNG" class="card-img-top" alt="html pic" height="300"></a>
+  <div class="card-body">
+    <h4 class="card-title">حساب الكون بالارقام</h4>
+    <br>
+    <div class=" row justify-content-around">
+    <a target="_blank" href="https://www.hindawi.org/books/14859206/" class="btn btn-primary">Download</a>
+    <a target="_blank" href="file:///C:/Users/Fatam/Downloads/%D8%AD%D8%B3%D8%A7%D8%A8_%D8%A7%D9%84%D9%83%D9%88%D9%86_%D8%A8%D8%A7%D9%84%D8%A3%D8%B1%D9%82%D8%A7%D9%85.pdf" class="btn btn-primary">Reading</a>
+   </div>
+  </div>
+</div>
+
+<div class="card  mt-5 " style="width: 14rem;" >
+  <a href="" target="_blank">
+    <img src="img/l2.jpg" class="card-img-top" alt="html pic" height="300"></a>
+  <div class="card-body">
+    <h4 class="card-title"> قصة الكون </h4>
+    <br>
+    <div class=" row justify-content-around">
+    <a target="_blank" href="https://www.ktaab.com/d/13190948" class="btn btn-primary">Download</a>
+    <a  target="_blank" href="https://docs.google.com/viewerng/viewer?url=https://www.ktaab.com/d/13190948" class="btn btn-primary">Reading</a>
+  </div>
+</div>
+</div>
+
+
+
+
+
+<div class="card  mt-5  px-0" style="width:14rem; ">
+  <!-- col-lg-4 col-sm-6 -->
+  <img class="card-img-top " src="img/w2.jpg" alt="Card image" height="300">
+  <div class="card-body">
+    <h4 class="card-title"> بداية اللانهاية: تفسيرات تغير وجه العالم</h4>
+    <div class=" row justify-content-around"><a target="_blank" href="https://www.ktaab.com/books/%d8%a3%d8%b3%d8%b1%d8%b9-%d9%85%d9%86-%d8%b3%d8%b1%d8%b9%d8%a9-%d8%a7%d9%84%d8%b6%d9%88%d8%a1/" class="btn btn-primary">Download</a> 
+      <a target="_blank" href="https://docs.google.com/viewerng/viewer?url=https://www.ktaab.com/d/15761405" class="btn btn-primary">Reading</a> </div>
+ 
+  </div>
+</div>
+
+
+
+<div class="card  mt-5  px-0" style="width:14rem;">
+  <!-- col-lg-4 col-sm-6 -->
+  <img class="card-img-top " src="img/t2.jpg" alt="Card image"  height="300">
+  <div class="card-body">
+    <h4 class="card-title" > قاموس اساطير العالم</h4>
+    <br>
+    <div class=" row justify-content-around"><a target="_blank" href="https://www.ktaab.com/books/%d9%82%d8%a7%d9%85%d9%88%d8%b3-%d8%a7%d8%b3%d8%a7%d8%b7%d9%8a%d8%b1-%d8%a7%d9%84%d8%b9%d8%a7%d9%84%d9%85/
+" class="btn btn-primary">Download</a> 
+      <a target="_blank" href="http://drive.ktaab.com/2019/q4/Ktaab.com_TarikhAlarbAlkdim.pdf" class="btn btn-primary">Reading</a> </div>
+ </div>
+</div>
+
+
+<div class="card  mt-5 px-0" style="width:14rem;">
+  <!-- col-lg-4 col-sm-6 -->
+  <img class="card-img-top " src="img/s2.jpg" alt="Card image"  height="300">
+  <div class="card-body">
+    <h4 class="card-title"> خراب: كتاب عن الأمل</h4>
+    <br>
+    <div class=" row justify-content-around"><a target="_blank" href="https://www.ktaab.com/books/%d8%ae%d8%b1%d8%a7%d8%a8-%d9%83%d8%aa%d8%a7%d8%a8-%d8%b9%d9%86-%d8%a7%d9%84%d8%a3%d9%85%d9%84/" class="btn btn-primary">Download</a> 
+      <a target="_blank" href="https://docs.google.com/viewerng/viewer?url=https://www.ktaab.com/d/46680969" class="btn btn-primary">Reading</a> </div>
+  </div>
+</div>
+
+
+<div class="card mt-5  px-0 " style="width:14rem;">
+  <!-- col-lg-4 col-sm-6 -->
+  <img class="card-img-top " src="img/d1.jpg" alt="Card image"  height="300">
+  <div class="card-body">
+    <h4 class="card-title">   العادات الذرية  </h4>
+    <br>
+    <div class=" row justify-content-around"><a target="_blank" href="https://www.ktaab.com/books/%d8%a7%d9%84%d8%b9%d8%a7%d8%af%d8%a7%d8%aa-%d8%a7%d9%84%d8%b0%d8%b1%d9%8a%d8%a9/" class="btn btn-primary">Download</a> 
+      <a target="_blank" href="https://docs.google.com/viewerng/viewer?url=https://www.ktaab.com/d/511091267" class="btn btn-primary">Reading</a> </div>
+</div>
+</div>
+
+<div class="card mt-5 px-0"  style="width:14rem;">
+  <!-- col-lg-4 col-sm-6 -->
+  <img class="card-img-top " src="img/r2.jpg" alt="Card image" height="300">
+  <div class="card-body">
+    <h4 class="card-title">أسرع من سرعة الضوء</h4>
+    <br>
+    <div class=" row justify-content-around"><a target="_blank" href="https://www.ktaab.com/books/%d8%a8%d8%af%d8%a7%d9%8a%d8%a9-%d8%a7%d9%84%d9%84%d8%a7%d9%86%d9%87%d8%a7%d9%8a%d8%a9-%d8%aa%d9%81%d8%b3%d9%8a%d8%b1%d8%a7%d8%aa-%d8%aa%d8%ba%d9%8a%d8%b1-%d9%88%d8%ac%d9%87-%d8%a7%d9%84%d8%b9%d8%a7/
+      " class="btn btn-primary">Download</a> 
+      <a target="_blank" href="https://docs.google.com/viewerng/viewer?url=https://www.ktaab.com/d/15761405" class="btn btn-primary">Reading</a> </div>
+ </div>
+</div>
+</div>
+</div>
+</div>
+
+
+
+<!-- ///////////////////////////////////// section8 ///////////////////////////////////////////////// -->
+
+  <div >
+  <div class=" image image2"  >
+  </div>
+  <hr>
+    <h2 class="text-center  pt-3">Books by English </h2>
+    <div class="container py-1 my-2">
+      <div class="row justify-content-around text-center">
+        
+    <div class="card mt-5 px-0 bg-light" style="width:14rem;" >
+      <img class="card-img-top mb-1" src="img/J1.jpg" alt="Card image" height="300">
+      <div class="card-body">
+        <h4 class="card-title  "> Give and Take   </h4>
+        <br><br>
+        <div class=" row justify-content-around"><a target="_blank" href="https://www.pdfdrive.com/give-and-take-why-helping-others-drives-our-success-e58864799.html" class="btn btn-primary">Download</a> 
+          <a target="_blank" href="https://www.pdfdrive.com/give-and-take-why-helping-others-drives-our-success-e58864799.html" class="btn btn-primary">Reading</a> </div>
+    
+      </div>
+    </div>
+
+    <div class="card mt-5 px-0 bg-light" style="width:14rem;" >
+      <img class="card-img-top mb-" src="img/L1.jpg" alt="Card image" height="300">
+      <div class="card-body">
+        <h4 class="card-title"> How To Improve Memory</h4>
+        <br>
+        <div class=" row justify-content-around"><a target="_blank" href="https://www.pdfdrive.com/how-to-improve-memory-the-ultimate-mind-power-manual-the-best-brain-exercises-to-improve-your-memory-and-master-your-mind-power-e194501770.html" class="btn btn-primary">Download</a> 
+          <a target="_blank" href="https://www.pdfdrive.com/how-to-improve-memory-the-ultimate-mind-power-manual-the-best-brain-exercises-to-improve-your-memory-and-master-your-mind-power-e194501770.html" class="btn btn-primary">Reading</a> </div>
+    
+      </div>
+    </div>
+
+    <div class="card mt-5 px-0 bg-light" style="width:14rem;" >
+      <img class="card-img-top " src="img/q1.jpg" alt="Card image" height="300">
+      <div class="card-body ">
+        <h4 class="card-title ">How Successful People Think  </h4>
+       <br>
+        <div class=" row justify-content-around"><a target="_blank" href="https://www.pdfdrive.com/how-successful-people-think-change-your-thinking-change-your-life-e183592515.html" class="btn btn-primary">Download</a> 
+          <a target="_blank" href="https://www.pdfdrive.com/how-successful-people-think-change-your-thinking-change-your-life-e183592515.html" class="btn btn-primary">Reading</a> </div>
+      </div>
+    </div>
+
+    <div class="card mt-5 px-0 bg-light" style="width:14rem;" >
+      <img class="card-img-top " src="img/w1.jpg" alt="Card image" height="300">
+      <div class="card-body">
+        <h4 class="card-title"> Yoga for Beginners </h4>
+       <br>
+        <div class=" row justify-content-around"><a target="_blank" href="https://www.pdfdrive.com/yoga-for-beginners-your-guide-to-master-yoga-poses-while-strengthening-your-body-calming-your-mind-and-be-stress-free-e196912577.html" class="btn btn-primary">Download</a> 
+          <a target="_blank" href="https://www.pdfdrive.com/yoga-for-beginners-your-guide-to-master-yoga-poses-while-strengthening-your-body-calming-your-mind-and-be-stress-free-e196912577.html" class="btn btn-primary">Reading</a> </div>
+      </div>
+    </div>
+
+    <div class="card mt-5 px-0 bg-light" style="width:14rem;" >
+      <img class="card-img-top " src="img/r1.jpg" alt="Card image" height="300">
+      <div class="card-body">
+        <h4 class="card-title"> The Whole-Brain Child</h4>
+        <br>
+        <div class=" row justify-content-around"><a target="_blank" href="https://www.pdfdrive.com/the-whole-brain-child-12-revolutionary-strategies-to-nurture-your-childs-developing-mind-e60737121.html" class="btn btn-primary">Download</a> 
+          <a target="_blank" href="https://www.pdfdrive.com/the-whole-brain-child-12-revolutionary-strategies-to-nurture-your-childs-developing-mind-e60737121.html" class="btn btn-primary">Reading</a> </div>
+      </div>
+    </div>
+    <div class="card mt-5 px-0 bg-light" style="width:14rem;" >
+      <img class="card-img-top " src="img/z2.jpg" alt="Card image" height="300">
+      <div class="card-body">
+        <h4 class="card-title">You Are Not So Smart</h4>
+        <br>
+        <div class=" row justify-content-around"><a target="_blank" href="https://www.pdfdrive.com/you-are-not-so-smart-why-you-have-too-many-friends-on-facebook-why-your-memory-is-mostly-fiction-and-46-other-ways-youre-deluding-yourself-e156830157.html" class="btn btn-primary">Download</a> 
+          <a target="_blank" href="https://www.pdfdrive.com/you-are-not-so-smart-why-you-have-too-many-friends-on-facebook-why-your-memory-is-mostly-fiction-and-46-other-ways-youre-deluding-yourself-e156830157.html" class="btn btn-primary">Reading</a> </div>
+      </div>
+    </div>
+    <div class="card mt-5 px-0 bg-light" style="width:14rem;" >
+      <img class="card-img-top " src="img/x2.jpg" alt="Card image" height="300">
+      <div class="card-body">
+        <h4 class="card-title">The Purpose-Driven Life</h4>
+        <br>
+        <div class=" row justify-content-around"><a target="_blank" href="https://www.pdfdrive.com/the-purpose-driven-life-what-on-earth-am-i-here-for-e185720921.html" class="btn btn-primary">Download</a> 
+          <a target="_blank" href="https://www.pdfdrive.com/the-purpose-driven-life-what-on-earth-am-i-here-for-e185720921.html" class="btn btn-primary">Reading</a> </div>
+      </div>
+    </div>
+    <div class="card mt-5 px-0 bg-light" style="width:14rem;" >
+      <img class="card-img-top " src="img/n2.jpg" alt="Card image" height="300">
+      <div class="card-body">
+        <h4 class="card-title"> 1-2-3 Magic </h4>
+        <br>
+        <br>
+        <div class=" row justify-content-around"><a target="_blank" href="https://www.pdfdrive.com/1-2-3-magic-3-step-discipline-for-calm-effective-and-happy-parenting-e60737129.html" class="btn btn-primary">Download</a> 
+          <a target="_blank" href="https://www.pdfdrive.com/1-2-3-magic-3-step-discipline-for-calm-effective-and-happy-parenting-e60737129.html" class="btn btn-primary">Reading</a> </div>
+      </div>
+    </div>
+    <div class="card mt-5 px-0 bg-light" style="width:14rem;" >
+      <img class="card-img-top " src="img/v2.jpg" alt="Card image" height="300">
+      <div class="card-body">
+        <h4 class="card-title"> Rich Dad Poor Dad </h4>
+        <br>
+        <div class=" row justify-content-around"><a target="_blank" href="https://www.pdfdrive.com/rich-dad-poor-dad-e136494023.html" class="btn btn-primary">Download</a> 
+          <a target="_blank" href="https://www.pdfdrive.com/rich-dad-poor-dad-e136494023.html" class="btn btn-primary">Reading</a> </div>
+      </div>
+    </div>
+    </div> 
+   </div>
+<hr>
+
+<h2 class="text-center pt-3">Reviews</h2>
+
+<div class="container  py-4">
+  <div class="row justify-content-around p-1">
+  
+
+    <div class="card  col-lg-3 col-md-6 col-sm-12 mb-2" style="width:14rem;">
+      <div class="card-body">
+        <img src="img/testimonials-4.jpg" class="rounded-circle d-block " alt="Cinque Terre" width="50" height="50" style="margin: -5px 0px 0px -5px;"> 
+        <h5 class="card-title mt-2 font-weight-bold">Ahmed ali</h5>
+        <p>The library aims to instill a love of reading and knowledge.</p>
+        <i class="fas fa-star text-primary"></i><i class="fas fa-star text-primary"></i><i class="fas fa-star text-primary"></i><i class="fas fa-star text-primary"></i><i class="fas fa-star text-primary"></i>
+      </div>
+    </div>
+
+
+<div class="card col-lg-3 col-md-6 col-sm-12  mb-2" style="width:14rem;">
+  <div class="card-body">
+    <img src="img/com.jpg" class="rounded-circle " alt="Cinque Terre" width="50" height="50" style="margin: -5px 0px 0px -5px;"> 
+    <h5 class="card-title mt-2 font-weight-bold">Hoda morsy</h5>
+    <p>A non-profit library that aims to spread knowledge and culture.</p>
+    <i class="fas fa-star text-primary"></i><i class="fas fa-star text-primary"></i><i class="fas fa-star text-primary"></i><i class="fas fa-star text-primary"></i><i class="far fa-star text-primary"></i>
+    </div>
+</div>
+
+
+
+<div class="card col-lg-3 col-md-6 col-sm-12 mb-2" style="width:14rem;">
+  <div class="card-body">
+<form >
+ <h5> <label class="mt-2 font-weight-bold">Enter your massage:</label></h5>
+  <textarea cols="21" rows="5" style="resize:none;"></textarea>
+</form>
+<button class="btn btn-outline-dark mr-2">send</button> 
+ <i class="far fa-star text-primary"></i><i class="far fa-star text-primary"></i><i class="far fa-star text-primary"></i><i class="far fa-star text-primary"></i><i class="far fa-star text-primary"></i>
+  </div>
+</div>
+
+  </div>
+</div>
+
+
+
+<!-- ///////////////////////////////////// section9 ///////////////////////////////////////////////// -->
+
+
+  <div class="bg-dark text-light " >
+    <div class="container  pt-1">
+      <div class="row justify-content-around">
+
+  <div class=" text-center col-4 p-1 " style="font-size:small !important;">
+    <hr class="bg-light">
+    <h4><i class="fas fa-phone-volume "></i> To Communicate</h4>
+    <hr class="bg-light">
+    <p>Tel : 01154312799</p>
+    <p>Address :9S El Mady Cairo</p>
+    <span>Gmail:fatmasayedmorsy50@gmail.com</span>
+  </div>  
+  
+  <div class=" text-center  col-4  p-1 ">
+    <hr class="bg-light">
+    <h4 ><i class="fas fa-users"></i> Social</h4>
+    <hr class="bg-light">
+    <p><a href="" target="_blank"><i class="fab fa-twitter"></i> Twitter</a></p>
+    <p><a href="" target="_blank"><i class="fab fa-facebook"></i> Facebook</a></p>
+    <p><a href="" target="_blank"><i class="fab fa-whatsapp"></i> Whatsapp</a></p>
+
+  </div>  
+  
+  <div class=" text-center col-4 p-1 ">
+    <hr class="bg-light">
+    <h4 ><i class="fas fa-hands-helping"></i> Help</h4>
+    <hr class="bg-light">
+    <p>Contact Us</p>
+    <p>Feedback</p>
+    <p>Copyright</p>
+  </div>  
+
+
+  </div>
+</div>
+
+
+<hr class="bg-light">
+<p class="text-center">Copyright © 2022 Fatma Sayed Hesseen.</p>
+<hr class="bg-light">
+<br>
+</div>
+
+
+
+
+<div class="container">
+  <!-- The Modal -->
+  <div class="modal fade" id="myModal">
+    <div class="modal-dialog modal-xl">
+      <div class="modal-content">
+      
+        <!-- Modal Header -->
+        <div class="modal-header">
+          <h4 class="modal-title">Log in</h4>
+          <button type="button" class="close" data-dismiss="modal">&times;</button>
+        </div>
+        
+        <!-- Modal body -->
+        <div class="modal-body">
+         
+          <div class="container">
+            <form action="/action_page.php">
+              <div class="form-group">
+                <label for="email">Email:</label>
+                <input type="email" class="form-control" id="email" placeholder="Enter email" name="email">
+              <p class="text-secondary"> We'll never share your email with anyone else.</p>
+              </div>
+              <div class="form-group">
+                <label for="pwd">Password:</label>
+                <input type="password" class="form-control" id="pwd" placeholder="Enter password" name="pswd">
+              </div>
+              <div class="custom-control custom-switch">
+                <input type="checkbox" class="custom-control-input" id="switch1" name="example">
+                <label class="custom-control-label" for="switch1">Remmember me</label>
+              </div>
+              <br>
+              <button type="submit" class="btn btn-primary">Log in</button>
+            </form>
+          </div>
+
+
+
+        </div>
+        
+        <!-- Modal footer -->
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+        </div>
+        
+      </div>
+    </div>
+  </div>
+  
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <script>
+    $(document).ready(function(){
+      $('[data-toggle="popover"]').popover();   
+    });
+    </script>
+    
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.6.0/dist/jquery.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="js/script.js"></script>
+</body>
+
+</html>
